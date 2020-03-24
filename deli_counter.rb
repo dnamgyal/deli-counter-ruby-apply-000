@@ -16,10 +16,17 @@ def line(katz_deli)
   end
 end
 
-def take_a_number(katz_deli, name)
-  katz_deli.push(name)
-  position = katz_deli.length
-  puts "Welcome, #{name}. You are number #{position} in line."
+#def take_a_number(katz_deli, name)
+ # katz_deli.push(name)
+ # position = katz_deli.length
+ # puts "Welcome, #{name}. You are number #{position} in line."
+#end
+
+counter = 1
+def take_a_number(katz_deli)
+  katz_deli.push(counter)
+  puts "Welcome ticket number #{counter}".
+  counter += 1
 end
 
 def now_serving(katz_deli)
