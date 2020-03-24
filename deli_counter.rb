@@ -14,21 +14,20 @@ def line(katz_deli)
       position = position + 1
     end
     puts "The line is currently:#{line_info}"
-
   end
 end
 
   
 def take_a_number(katz_deli, name)
   katz_deli.push(name)
-  position = katz_deli.length()
+  position = katz_deli.length
   puts "Welcome, #{name}. You are number #{position} in line."
 end
 
 def now_serving(katz_deli)
   if !katz_deli.empty?
     puts "Currently serving #{katz_deli[0]}."
-    katz_deli.shift()
+    katz_deli.shift
   else
     puts "There is nobody waiting to be served!"
   end
