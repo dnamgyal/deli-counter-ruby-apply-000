@@ -1,5 +1,4 @@
-# Write your code here.
-
+#Don Namgyal
 
 katz_deli = []
 
@@ -17,7 +16,6 @@ def line(katz_deli)
   end
 end
 
-  
 def take_a_number(katz_deli, name)
   katz_deli.push(name)
   position = katz_deli.length
